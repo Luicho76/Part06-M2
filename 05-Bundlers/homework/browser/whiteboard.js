@@ -5,10 +5,6 @@
   var whiteboard = new EventEmitter();
 
 
-
-
-
-
   // Ultimately, the color of our stroke;
   var color;
 

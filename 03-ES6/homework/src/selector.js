@@ -31,9 +31,9 @@ var traverseDomAndCollectElements = function(matchFunc, startEl) {
 var selectorTypeMatcher = function(selector) {
   // tu código aquí
   /*if(selector[0] === '.') return 'class'; // se escoje . por que las clases inician con punto
-  else if(selector[0] === '#') return 'id'; // se escoje el # por que los id inician con le #
-  else if(selector.split('.').length === 2) return 'tag.class'; // se hace split, ya que este metodo corte o parte el estring que pase como argumento en las partes que divida la invocacion (lo que este entre los parentesis, en este caso el punto), las tag.class tienen un punto en el medio y devuelve dos elementos en un array, por eso se coloca el .lenght, ya que si al hacer split y quedan dos elementos ([tag, class]), esto en definitiva es una tag.class
-  else return 'tag'; // si no hace nada de lo anterior entonces en definitiva es una tag
+  *else if(selector[0] === '#') return 'id'; // se escoje el # por que los id inician con le #
+  *else if(selector.split('.').length === 2) return 'tag.class'; // se hace split, ya que este metodo corta o parte el estring que pase como argumento en las partes que divida la invocacion (lo que este entre los parentesis, en este caso el punto), las tag.class tienen un punto en el medio y devuelve dos elementos en un array, por eso se coloca el .lenght, ya que si al hacer split y quedan dos elementos ([tag, class]), esto en definitiva es una tag.class
+  *else return 'tag'; // si no hace nada de lo anterior entonces en definitiva es una tag
   
   Ahora lo haremos con ternario:
   pregunta + ? + resultado true + : false u otra pregunta */

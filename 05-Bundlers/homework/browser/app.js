@@ -2,7 +2,7 @@
   //var whiteboard = window.whiteboard;
   //var socket = window.io(window.location.origin);
   
-  var whiteboard =require('./whiteboard.js');
+  var whiteboard = require('./whiteboard.js');
 
   var io = require('socket.io-client');
 
