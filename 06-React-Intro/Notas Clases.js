@@ -26,6 +26,12 @@ React tien el Single Responsability Principle (Principio de Responsabilidad Unic
 Nosotros vamos a guardar toda la palicacion en un componente principal padre, que se llamara por buena practica "app"
 
 
+El navegador no entiende JXS
+
+Babel compila JSX 
+
+La forma de escribir un componente es una funcion, recibe propiedades y retorna un pedacito de interface
+
 
 
 

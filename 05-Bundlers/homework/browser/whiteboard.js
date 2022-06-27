@@ -4,6 +4,9 @@
 
   var whiteboard = new EventEmitter();
 
+  //ES6
+  
+
 
   // Ultimately, the color of our stroke;
   var color;

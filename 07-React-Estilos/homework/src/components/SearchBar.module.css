@@ -1,0 +1,16 @@
+.contenedor {
+    background-color: rgb(59, 59, 59);
+    width: fit-content;
+    border: 5px solid rgb(59, 59, 59);
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: rgb(233, 215, 215);
+    border: 2px solid rgb(154, 212, 154);
+    color: rgb(74, 156, 74);
+}
+
+.input {
+    border-radius: 5px;
+}

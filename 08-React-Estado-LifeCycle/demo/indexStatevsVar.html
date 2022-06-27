@@ -14,11 +14,16 @@
   <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
   <script type="text/babel">
 
- class StateContador extends React.Component{
-   constructor(props) {
-     super(props);
-     this.state = {
-       contador: this.props.contador
+//Las unicas acciones que provocan un re-render de un componente es:
+//1.- Me cambian las props
+//2.- Se cambia el estado interno de la variable
+
+
+class StateContador extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+      contador: this.props.contador
       }
       this.variable = this.props.contador
       this.incrementoContador= this.incrementoContador.bind(this);
@@ -27,12 +32,12 @@
     onButtonClick = () => {
       this.setState((state) => {
           return {contador: state.contador + 1}
-     });
+    });
       console.log("Actualicé mi state :", this.state.contador)
     }
     
     incrementoContador(cuento) {
-     this.variable++
+    this.variable++
       console.log("Soy contador ", this.variable)
     }
     

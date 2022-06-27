@@ -20,22 +20,22 @@
         this.state = {
           contador: this.props.numero
         }
-        // this.onButtonClick = this.onButtonClick.bind(this);
+        this.onButtonClick = this.onButtonClick.bind(this);
       }
 
-      // onButtonClick(){
-      //   console.log('this', this);
-      //   this.setState({
-      //     contador: this.state.contador + 1,
-      //   });
-      // }
+      onButtonClick(){
+        console.log('this', this);
+        this.setState({
+          contador: this.state.contador + 1,
+        });
+      }
 
-      onButtonClick = () => {
+      /* onButtonClick = () => {
         console.log('this arrow', this)
         this.setState({
           contador: this.state.contador + 1
         })
-      }
+      } */
 
       render() {
         return (
